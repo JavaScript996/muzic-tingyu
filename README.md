@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 听屿 TINGYU
 
 Vue 3 + JavaScript + SCSS 音乐播放器，使用网易云真实数据，支持桌面与手机窄屏。
@@ -88,3 +89,7 @@ npm run build
 ```
 
 测试覆盖 LRC 多时间戳解析、两种歌曲数据结构兼容、版权限制响应和 API 失败处理。
+=======
+# muzic-tingyu
+一款音乐播放器
+>>>>>>> c4f81de77c466d4686de664ddebcdc14e116b35e
