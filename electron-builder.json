@@ -1,0 +1,29 @@
+{
+  "appId": "com.tingyu.music",
+  "productName": "听屿音乐",
+  "executableName": "Tingyu",
+  "directories": { "output": "release" },
+  "files": ["dist/**/*", "electron/**/*", "server/**/*.mjs", "build/icon.png", "package.json"],
+  "asar": true,
+  "electronDist": "node_modules/electron/dist",
+  "npmRebuild": false,
+  "win": {
+    "target": ["portable", "nsis"],
+    "icon": "build/icon.ico",
+    "signExecutable": false
+  },
+  "portable": { "artifactName": "Tingyu-${version}-Portable.exe" },
+  "nsis": {
+    "artifactName": "Tingyu-${version}-Setup.exe",
+    "oneClick": false,
+    "perMachine": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "听屿音乐",
+    "installerIcon": "build/icon.ico",
+    "uninstallerIcon": "build/icon.ico",
+    "installerLanguages": ["zh_CN", "en_US"],
+    "language": "2052"
+  }
+}

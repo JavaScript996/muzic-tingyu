@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "title": "听屿 TINGYU · 让音乐陪你慢一点",
+  "heading": "发现你的音乐。",
+  "audio": true,
+  "storage": "ok",
+  "song": 139774,
+  "origin": "tingyu://app",
+  "bridge": true,
+  "download": {
+    "status": "saved",
+    "filename": "The truth that you leave - Pianoboy高至豪.mp3"
+  }
+}
